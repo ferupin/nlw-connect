@@ -5,3 +5,7 @@ Content-Type: application/json
     "name": "Felipe de Matos",
     "email": "felipedmats@gmail.com"
 }
+
+###
+
+GET http://localhost:3333/invites/diego123
