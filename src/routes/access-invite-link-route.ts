@@ -19,9 +19,7 @@ export const accessInviteLinkRoute: FastifyPluginAsyncZod = async app => {
         }),
         response: {
           // - Resposta para status de rota
-          201: z.object({
-            subscriberId: z.string(),
-          }),
+          302: z.null(),
         },
       },
     },
